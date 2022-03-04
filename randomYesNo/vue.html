@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <p>Ask a yes no question (its for fun):</p>
+        <input type="text" v-model="question">
+        <p>{{ answer }}</p>
+        <iframe v-bind:src="image" style="display: none; width: fit-content;height: fit-content;"></iframe>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="scVue.js"></script>
+</body>
+</html>
